@@ -7,7 +7,7 @@ import (
 	"errors"
 	"math"
 
-	"github.com/novifinancial/serde-reflection/serde-generate/runtime/golang/serde"
+	"github.com/diem/serde-reflection-diem/serde-generate/runtime/golang/serde"
 )
 
 // MaxSequenceLength is max length supported in practice (e.g. in Java).

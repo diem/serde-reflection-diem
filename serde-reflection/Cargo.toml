@@ -3,7 +3,7 @@ name = "serde-reflection"
 version = "0.3.5"
 description = "Extract representations of Serde data formats"
 documentation = "https://docs.rs/serde-reflection"
-repository = "https://github.com/novifinancial/serde-reflection"
+repository = "https://github.com/diem/serde-reflection-diem"
 authors = ["Mathieu Baudet <mathieubaudet@fb.com>", "Brandon Williams <bmwill@fb.com>"]
 license = "MIT OR Apache-2.0"
 readme = "README.md"
@@ -16,7 +16,7 @@ exclude = [
 ]
 
 [dependencies]
-thiserror = "1.0.25"
+thiserror = "1.0.37"
 serde = { version = "1.0.126", features = ["derive"] }
 once_cell = "1.7.2"
 

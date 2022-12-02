@@ -3,7 +3,7 @@ name = "serde-generate"
 version = "0.20.6"
 description = "Generate (de)serialization code in multiple languages"
 documentation = "https://docs.rs/serde-generate"
-repository = "https://github.com/novifinancial/serde-reflection"
+repository = "https://github.com/diem/serde-reflection-diem"
 authors = ["Mathieu Baudet <mathieubaudet@fb.com>", "Brandon Williams <bmwill@fb.com>"]
 license = "MIT OR Apache-2.0"
 readme = "README.md"
@@ -27,7 +27,7 @@ textwrap = "0.13.4"
 
 serde-reflection = { path = "../serde-reflection", version = "0.3.5" }
 bincode = "1.3.3"
-bcs = "0.1.3"
+bcs = { git = "https://github.com/diem/bcs", rev = "30ce9f4ac51342d2fb4c04c4f5b40683d9652dc6" }
 
 [dev-dependencies]
 hex = "0.4.3"
