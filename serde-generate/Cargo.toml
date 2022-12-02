@@ -27,7 +27,7 @@ textwrap = "0.13.4"
 
 serde-reflection = { path = "../serde-reflection", version = "0.3.5" }
 bincode = "1.3.3"
-bcs = "0.1.3"
+bcs = { git = "https://github.com/diem/bcs", rev = "9f435a13d859ce333b8e9fc5cb2d95fac06cb26a" }
 
 [dev-dependencies]
 hex = "0.4.3"
