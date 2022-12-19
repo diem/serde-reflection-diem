@@ -112,7 +112,7 @@ func main() {{
         .arg("edit")
         .arg("-replace")
         .arg(format!(
-            "github.com/novifinancial/serde-reflection/serde-generate/runtime/golang={}",
+            "github.com/diem/serde-reflection-diem/serde-generate/runtime/golang={}",
             runtime_mod_path.to_str().unwrap()
         ))
         .status()
@@ -243,7 +243,7 @@ func main() {{
         .arg("edit")
         .arg("-replace")
         .arg(format!(
-            "github.com/novifinancial/serde-reflection/serde-generate/runtime/golang={}",
+            "github.com/diem/serde-reflection-diem/serde-generate/runtime/golang={}",
             runtime_mod_path.to_str().unwrap()
         ))
         .status()
